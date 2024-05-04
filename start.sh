@@ -15,4 +15,6 @@ docker run -d --name mainpage --network quotesApp -p 80:8080 clusterminator/main
 sleep 5;
 docker run -d --name quotes-api --network quotesApp -p 4001:8080 clusterminator/quotes-api:1.0
 sleep 5;
+docker run -d --name addget-api --network quotesApp -p 4003:8080 clusterminator/addget-api:1.0
+sleep 5;
 echo "Aplicação inicalizada! Acesse: http://localhost";

@@ -8,6 +8,9 @@ docker rm mainpage;
 docker stop quotes-api;
 docker rm quotes-api;
 
+docker stop addget-api;
+docker rm addget-api;
+
 docker stop images-api;
 docker rm images-api;
 
